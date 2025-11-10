@@ -1,0 +1,133 @@
+First few rows:
+  Unnamed: 0  BAP1  BAP2  BAP3  BAP4  BAP5  BAP6  BAP7  ...  BAP493  BAP494  BAP495  BAP496  BAP497  BAP498  BAP499  BAP500
+0      HML/1  62.4  69.8  92.6  31.9  61.2  53.5  28.8  ...    40.5    53.4    77.4    14.0    56.3    51.4    87.4     8.2
+1      HML/2  79.1  62.2  68.5  78.1  36.9  40.3  42.6  ...    84.9    73.7    49.0    73.7    21.1    71.0    26.3    63.3
+2      HML/3  83.2  85.3  69.4  21.8  39.1  35.8  49.9  ...    50.7    78.6    68.2    20.3    31.6    48.7    74.3    55.0
+3      HML/4  72.5  65.0  67.1  28.2  66.3  47.9  30.4  ...    75.7    60.4    79.0    55.9    25.5    48.2    80.1    49.6
+4      HML/5  40.7  48.1  81.8  90.0  52.6  59.3  41.1  ...    75.0    61.7    61.3    15.1    57.3    54.7    90.3    24.9
+
+[5 rows x 501 columns]
+
+Column names:
+['Unnamed: 0', 'BAP1', 'BAP2', 'BAP3', 'BAP4', 'BAP5', 'BAP6', 'BAP7', 'BAP8', 'BAP9', 'BAP10', 'BAP11', 'BAP12', 'BAP13', 'BAP14', 'BAP15', 'BAP16', 'BAP17', 'BAP18', 'BAP19', 'BAP20', 'BAP21', 'BAP22', 'BAP23', 'BAP24', 'BAP25', 'BAP26', 'BAP27', 'BAP28', 'BAP29', 'BAP30', 'BAP31', 'BAP32', 'BAP33', 'BAP34', 'BAP35', 'BAP36', 'BAP37', 'BAP38', 'BAP39', 'BAP40', 'BAP41', 'BAP42', 'BAP43', 'BAP44', 'BAP45', 'BAP46', 'BAP47', 'BAP48', 'BAP49', 'BAP50', 'BAP51', 'BAP52', 'BAP53', 'BAP54', 'BAP55', 'BAP56', 'BAP57', 'BAP58', 'BAP59', 'BAP60', 'BAP61', 'BAP62', 'BAP63', 'BAP64', 'BAP65', 'BAP66', 'BAP67', 'BAP68', 'BAP69', 'BAP70', 'BAP71', 'BAP72', 'BAP73', 'BAP74', 'BAP75', 'BAP76', 'BAP77', 'BAP78', 'BAP79', 'BAP80', 'BAP81', 'BAP82', 'BAP83', 'BAP84', 'BAP85', 'BAP86', 'BAP87', 'BAP88', 'BAP89', 'BAP90', 'BAP91', 'BAP92', 'BAP93', 'BAP94', 'BAP95', 'BAP96', 'BAP97', 'BAP98', 'BAP99', 'BAP100', 'BAP101', 'BAP102', 'BAP103', 'BAP104', 'BAP105', 'BAP106', 'BAP107', 'BAP108', 'BAP109', 'BAP110', 'BAP111', 'BAP112', 'BAP113', 'BAP114', 'BAP115', 'BAP116', 'BAP117', 'BAP118', 'BAP119', 'BAP120', 'BAP121', 'BAP122', 'BAP123', 'BAP124', 'BAP125', 'BAP126', 'BAP127', 'BAP128', 'BAP129', 'BAP130', 'BAP131', 'BAP132', 'BAP133', 'BAP134', 'BAP135', 'BAP136', 'BAP137', 'BAP138', 'BAP139', 'BAP140', 'BAP141', 'BAP142', 'BAP143', 'BAP144', 'BAP145', 'BAP146', 'BAP147', 'BAP148', 'BAP149', 'BAP150', 'BAP151', 'BAP152', 'BAP153', 'BAP154', 'BAP155', 'BAP156', 'BAP157', 'BAP158', 'BAP159', 'BAP160', 'BAP161', 'BAP162', 'BAP163', 'BAP164', 'BAP165', 'BAP166', 'BAP167', 'BAP168', 'BAP169', 'BAP170', 'BAP171', 'BAP172', 'BAP173', 'BAP174', 'BAP175', 'BAP176', 'BAP177', 'BAP178', 'BAP179', 'BAP180', 'BAP181', 'BAP182', 'BAP183', 'BAP184', 'BAP185', 'BAP186', 'BAP187', 'BAP188', 'BAP189', 'BAP190', 'BAP191', 'BAP192', 'BAP193', 'BAP194', 'BAP195', 'BAP196', 'BAP197', 'BAP198', 'BAP199', 'BAP200', 'BAP201', 'BAP202', 'BAP203', 'BAP204', 'BAP205', 'BAP206', 'BAP207', 'BAP208', 'BAP209', 'BAP210', 'BAP211', 'BAP212', 'BAP213', 'BAP214', 'BAP215', 'BAP216', 'BAP217', 'BAP218', 'BAP219', 'BAP220', 'BAP221', 'BAP222', 'BAP223', 'BAP224', 'BAP225', 'BAP226', 'BAP227', 'BAP228', 'BAP229', 'BAP230', 'BAP231', 'BAP232', 'BAP233', 'BAP234', 'BAP235', 'BAP236', 'BAP237', 'BAP238', 'BAP239', 'BAP240', 'BAP241', 'BAP242', 'BAP243', 'BAP244', 'BAP245', 'BAP246', 'BAP247', 'BAP248', 'BAP249', 'BAP250', 'BAP251', 'BAP252', 'BAP253', 'BAP254', 'BAP255', 'BAP256', 'BAP257', 'BAP258', 'BAP259', 'BAP260', 'BAP261', 'BAP262', 'BAP263', 'BAP264', 'BAP265', 'BAP266', 'BAP267', 'BAP268', 'BAP269', 'BAP270', 'BAP271', 'BAP272', 'BAP273', 'BAP274', 'BAP275', 'BAP276', 'BAP277', 'BAP278', 'BAP279', 'BAP280', 'BAP281', 'BAP282', 'BAP283', 'BAP284', 'BAP285', 'BAP286', 'BAP287', 'BAP288', 'BAP289', 'BAP290', 'BAP291', 'BAP292', 'BAP293', 'BAP294', 'BAP295', 'BAP296', 'BAP297', 'BAP298', 'BAP299', 'BAP300', 'BAP301', 'BAP302', 'BAP303', 'BAP304', 'BAP305', 'BAP306', 'BAP307', 'BAP308', 'BAP309', 'BAP310', 'BAP311', 'BAP312', 'BAP313', 'BAP314', 'BAP315', 'BAP316', 'BAP317', 'BAP318', 'BAP319', 'BAP320', 'BAP321', 'BAP322', 'BAP323', 'BAP324', 'BAP325', 'BAP326', 'BAP327', 'BAP328', 'BAP329', 'BAP330', 'BAP331', 'BAP332', 'BAP333', 'BAP334', 'BAP335', 'BAP336', 'BAP337', 'BAP338', 'BAP339', 'BAP340', 'BAP341', 'BAP342', 'BAP343', 'BAP344', 'BAP345', 'BAP346', 'BAP347', 'BAP348', 'BAP349', 'BAP350', 'BAP351', 'BAP352', 'BAP353', 'BAP354', 'BAP355', 'BAP356', 'BAP357', 'BAP358', 'BAP359', 'BAP360', 'BAP361', 'BAP362', 'BAP363', 'BAP364', 'BAP365', 'BAP366', 'BAP367', 'BAP368', 'BAP369', 'BAP370', 'BAP371', 'BAP372', 'BAP373', 'BAP374', 'BAP375', 'BAP376', 'BAP377', 'BAP378', 'BAP379', 'BAP380', 'BAP381', 'BAP382', 'BAP383', 'BAP384', 'BAP385', 'BAP386', 'BAP387', 'BAP388', 'BAP389', 'BAP390', 'BAP391', 'BAP392', 'BAP393', 'BAP394', 'BAP395', 'BAP396', 'BAP397', 'BAP398', 'BAP399', 'BAP400', 'BAP401', 'BAP402', 'BAP403', 'BAP404', 'BAP405', 'BAP406', 'BAP407', 'BAP408', 'BAP409', 'BAP410', 'BAP411', 'BAP412', 'BAP413', 'BAP414', 'BAP415', 'BAP416', 'BAP417', 'BAP418', 'BAP419', 'BAP420', 'BAP421', 'BAP422', 'BAP423', 'BAP424', 'BAP425', 'BAP426', 'BAP427', 'BAP428', 'BAP429', 'BAP430', 'BAP431', 'BAP432', 'BAP433', 'BAP434', 'BAP435', 'BAP436', 'BAP437', 'BAP438', 'BAP439', 'BAP440', 'BAP441', 'BAP442', 'BAP443', 'BAP444', 'BAP445', 'BAP446', 'BAP447', 'BAP448', 'BAP449', 'BAP450', 'BAP451', 'BAP452', 'BAP453', 'BAP454', 'BAP455', 'BAP456', 'BAP457', 'BAP458', 'BAP459', 'BAP460', 'BAP461', 'BAP462', 'BAP463', 'BAP464', 'BAP465', 'BAP466', 'BAP467', 'BAP468', 'BAP469', 'BAP470', 'BAP471', 'BAP472', 'BAP473', 'BAP474', 'BAP475', 'BAP476', 'BAP477', 'BAP478', 'BAP479', 'BAP480', 'BAP481', 'BAP482', 'BAP483', 'BAP484', 'BAP485', 'BAP486', 'BAP487', 'BAP488', 'BAP489', 'BAP490', 'BAP491', 'BAP492', 'BAP493', 'BAP494', 'BAP495', 'BAP496', 'BAP497', 'BAP498', 'BAP499', 'BAP500']
+
+Data types:
+float64    500
+object       1
+Name: count, dtype: int64
+
+Missing values:
+0 total missing values
+
+Found 500 numeric columns (traits)
+Using 500 trait columns for clustering
+
+Missing values in traits: 0
+
+Final dataset for clustering: (2125, 500)
+  - 2125 characters
+  - 500 personality traits
+Starting model selection...
+Testing K from 2 to 15 clusters
+This will take a few minutes...
+
+Testing K=2... AIC=1230038.5, BIC=2653918.3, Converged=True
+Testing K=3... AIC=1214665.5, BIC=3350487.9, Converged=True
+Testing K=4... AIC=851023.8, BIC=3698788.9, Converged=True
+Testing K=5... AIC=-179343.9, BIC=3380363.9, Converged=True
+Testing K=6... AIC=-1350755.2, BIC=2920895.3, Converged=True
+Testing K=7... AIC=-2300528.8, BIC=2683064.3, Converged=True
+Testing K=8... AIC=-2989622.1, BIC=2705913.8, Converged=True
+Testing K=9... AIC=-3449835.9, BIC=2957642.6, Converged=True
+Testing K=10... AIC=-3744229.1, BIC=3375192.2, Converged=True
+Testing K=11... AIC=-4065949.2, BIC=3765414.7, Converged=True
+Testing K=12... AIC=-4258911.2, BIC=4284395.4, Converged=True
+Testing K=13... AIC=-4435836.4, BIC=4819413.0, Converged=True
+Testing K=14... AIC=-4407225.4, BIC=5559966.7, Converged=True
+Testing K=15... AIC=-4362250.1, BIC=6316884.6, Converged=True
+
+✓ Model selection complete!
+
+✓ Plot saved as 'model_selection_results.png'
+
+============================================================
+RECOMMENDATIONS
+============================================================
+Best K by AIC: 13
+Best K by BIC: 2
+
+BIC is typically more conservative (favors simpler models)
+Look for the 'elbow' in the curve where it flattens out
+============================================================
+Fitting final GMM model with K=7...
+This may take a minute...
+
+✓ Model converged: True
+✓ Final BIC: 2583243.2
+✓ Final AIC: -2400350.0
+
+============================================================
+CLUSTER SIZES
+============================================================
+Cluster 0:  305 characters ( 14.4%)
+Cluster 1:  291 characters ( 13.7%)
+Cluster 2:  290 characters ( 13.6%)
+Cluster 3:  338 characters ( 15.9%)
+Cluster 4:  229 characters ( 10.8%)
+Cluster 5:  301 characters ( 14.2%)
+Cluster 6:  371 characters ( 17.5%)
+
+✓ Cluster labels added to dataframe
+✓ Saved to 'characters_with_clusters.csv'
+
+============================================================
+NEXT STEP: Find exemplars for each cluster
+============================================================
+Finding exemplars (most representative character per cluster)...
+
+============================================================
+EXEMPLARS (Most Representative Character per Cluster)
+============================================================
+
+Cluster 0: 305 characters
+  Exemplar: TIHAY/2
+  Distance to center: 17.435
+
+Cluster 1: 291 characters
+  Exemplar: SL/3
+  Distance to center: 17.029
+
+Cluster 2: 290 characters
+  Exemplar: GG/4
+  Distance to center: 17.000
+
+Cluster 3: 338 characters
+  Exemplar: TGM/3
+  Distance to center: 18.357
+
+Cluster 4: 229 characters
+  Exemplar: LW/2
+  Distance to center: 15.100
+
+Cluster 5: 301 characters
+  Exemplar: SK/2
+  Distance to center: 17.320
+
+Cluster 6: 371 characters
+  Exemplar: DK/4
+  Distance to center: 19.235
+
+✓ Exemplars saved to 'cluster_exemplars.csv'
+
+Extracting trait profiles for exemplars...
+✓ Trait profiles saved to 'exemplar_trait_profiles.npy'
+
+============================================================
+STEP 1 COMPLETE!
+============================================================
+✓ Found 7 personality clusters
+✓ Identified exemplar for each cluster
+✓ Saved cluster assignments and exemplars
+
+Next: Run identify_exemplars.py to see character names
+============================================================
