@@ -1,0 +1,221 @@
+Loading IPIP-BFFM dataset...
+Dataset shape: (1015341, 110)
+
+First few columns:
+['EXT1', 'EXT2', 'EXT3', 'EXT4', 'EXT5', 'EXT6', 'EXT7', 'EXT8', 'EXT9', 'EXT10', 'EST1', 'EST2', 'EST3', 'EST4', 'EST5', 'EST6', 'EST7', 'EST8', 'EST9', 'EST10']
+
+============================================================
+VERIFYING BIG FIVE ITEMS
+============================================================
+✓ Extraversion: All 10 items found
+✓ Neuroticism: All 10 items found
+✓ Agreeableness: All 10 items found
+✓ Conscientiousness: All 10 items found
+✓ Openness: All 10 items found
+
+============================================================
+DATA CLEANING
+============================================================
+Initial data: 1,015,341 responses × 50 items
+Missing values: 89,150
+After removing missing: 1,013,558 responses
+After IPC=1 filter: 695,704 responses (removed 317,854)
+
+✓ Data standardized
+Final dataset: 695,704 people × 50 Big Five items
+
+============================================================
+STEP 1: FINDING OPTIMAL K
+============================================================
+Testing K from 2 to 15 clusters using 50k sample...
+
+Using random sample of 50,000 for K selection
+Testing K=2... AIC=6020770.1, BIC=6044151.4, Converged=True
+Testing K=3... AIC=5766975.9, BIC=5802052.2, Converged=True
+Testing K=4... AIC=5751464.3, BIC=5798235.6, Converged=True
+Testing K=5... AIC=5500363.5, BIC=5558829.8, Converged=True
+Testing K=6... AIC=5474954.4, BIC=5545115.7, Converged=True
+Testing K=7... AIC=5521488.1, BIC=5603344.4, Converged=True
+Testing K=8... AIC=5436017.2, BIC=5529568.5, Converged=True
+Testing K=9... AIC=5316178.5, BIC=5421424.9, Converged=True
+Testing K=10... AIC=5190154.3, BIC=5307095.7, Converged=True
+Testing K=11... AIC=5251447.3, BIC=5380083.8, Converged=True
+Testing K=12... AIC=5162582.4, BIC=5302913.8, Converged=True
+Testing K=13... AIC=5149407.5, BIC=5301434.0, Converged=True
+Testing K=14... AIC=5178717.2, BIC=5342438.8, Converged=True
+Testing K=15... AIC=5177124.0, BIC=5352540.5, Converged=True
+
+✓ K selection complete!
+
+============================================================
+K SELECTION RESULTS
+============================================================
+Best K by AIC: 13
+Best K by BIC: 13
+============================================================
+
+============================================================
+STEP 2: FITTING FINAL MODEL
+============================================================
+Using sample of 100,000 for final model
+Fitting GMM with K=13...
+Using diagonal covariance for speed...
+This should take 2-5 minutes...
+
+✓ Model converged: True
+✓ Final BIC: 11422292.4
+
+============================================================
+CLUSTER SIZES
+============================================================
+Cluster 0: 6,438 people (6.4%)
+Cluster 1: 9,212 people (9.2%)
+Cluster 2: 7,419 people (7.4%)
+Cluster 3: 4,931 people (4.9%)
+Cluster 4: 12,896 people (12.9%)
+Cluster 5: 3,536 people (3.5%)
+Cluster 6: 13,148 people (13.1%)
+Cluster 7: 2,913 people (2.9%)
+Cluster 8: 341 people (0.3%)
+Cluster 9: 2,421 people (2.4%)
+Cluster 10: 19,038 people (19.0%)
+Cluster 11: 3,158 people (3.2%)
+Cluster 12: 14,549 people (14.5%)
+
+✓ Saved clustered data to 'ipip_with_clusters.csv'
+
+============================================================
+STEP 3: FINDING EXEMPLARS
+============================================================
+Finding most representative person for each cluster...
+
+
+============================================================
+EXEMPLAR PERSONALITY PROFILES
+============================================================
+(These become your AI personas!)
+
+Cluster 0: 6,438 people (6.4%)
+  Exemplar personality profile:
+    Extraversion      : 2.90/5.0 (Moderate)
+    Neuroticism       : 3.20/5.0 (Moderate)
+    Agreeableness     : 3.40/5.0 (Moderate)
+    Conscientiousness : 3.50/5.0 (High)
+    Openness          : 3.50/5.0 (High)
+
+Cluster 1: 9,212 people (9.2%)
+  Exemplar personality profile:
+    Extraversion      : 3.10/5.0 (Moderate)
+    Neuroticism       : 2.80/5.0 (Moderate)
+    Agreeableness     : 3.10/5.0 (Moderate)
+    Conscientiousness : 3.20/5.0 (Moderate)
+    Openness          : 3.30/5.0 (Moderate)
+
+Cluster 2: 7,419 people (7.4%)
+  Exemplar personality profile:
+    Extraversion      : 3.10/5.0 (Moderate)
+    Neuroticism       : 1.90/5.0 (Very Low)
+    Agreeableness     : 2.90/5.0 (Moderate)
+    Conscientiousness : 3.10/5.0 (Moderate)
+    Openness          : 3.20/5.0 (Moderate)
+
+Cluster 3: 4,931 people (4.9%)
+  Exemplar personality profile:
+    Extraversion      : 2.80/5.0 (Moderate)
+    Neuroticism       : 2.70/5.0 (Moderate)
+    Agreeableness     : 3.00/5.0 (Moderate)
+    Conscientiousness : 3.00/5.0 (Moderate)
+    Openness          : 3.20/5.0 (Moderate)
+
+Cluster 4: 12,896 people (12.9%)
+  Exemplar personality profile:
+    Extraversion      : 2.90/5.0 (Moderate)
+    Neuroticism       : 3.30/5.0 (Moderate)
+    Agreeableness     : 3.00/5.0 (Moderate)
+    Conscientiousness : 3.20/5.0 (Moderate)
+    Openness          : 3.50/5.0 (High)
+
+Cluster 5: 3,536 people (3.5%)
+  Exemplar personality profile:
+    Extraversion      : 2.90/5.0 (Moderate)
+    Neuroticism       : 3.00/5.0 (Moderate)
+    Agreeableness     : 3.40/5.0 (Moderate)
+    Conscientiousness : 2.90/5.0 (Moderate)
+    Openness          : 3.00/5.0 (Moderate)
+
+Cluster 6: 13,148 people (13.1%)
+  Exemplar personality profile:
+    Extraversion      : 3.00/5.0 (Moderate)
+    Neuroticism       : 3.40/5.0 (Moderate)
+    Agreeableness     : 3.10/5.0 (Moderate)
+    Conscientiousness : 3.40/5.0 (Moderate)
+    Openness          : 3.40/5.0 (Moderate)
+
+Cluster 7: 2,913 people (2.9%)
+  Exemplar personality profile:
+    Extraversion      : 3.10/5.0 (Moderate)
+    Neuroticism       : 2.50/5.0 (Moderate)
+    Agreeableness     : 3.10/5.0 (Moderate)
+    Conscientiousness : 2.60/5.0 (Moderate)
+    Openness          : 3.30/5.0 (Moderate)
+
+Cluster 8: 341 people (0.3%)
+  Exemplar personality profile:
+    Extraversion      : 0.20/5.0 (Very Low)
+    Neuroticism       : 0.10/5.0 (Very Low)
+    Agreeableness     : 0.10/5.0 (Very Low)
+    Conscientiousness : 0.20/5.0 (Very Low)
+    Openness          : 0.10/5.0 (Very Low)
+
+Cluster 9: 2,421 people (2.4%)
+  Exemplar personality profile:
+    Extraversion      : 3.00/5.0 (Moderate)
+    Neuroticism       : 2.50/5.0 (Moderate)
+    Agreeableness     : 2.60/5.0 (Moderate)
+    Conscientiousness : 3.20/5.0 (Moderate)
+    Openness          : 3.50/5.0 (High)
+
+Cluster 10: 19,038 people (19.0%)
+  Exemplar personality profile:
+    Extraversion      : 2.80/5.0 (Moderate)
+    Neuroticism       : 3.10/5.0 (Moderate)
+    Agreeableness     : 3.20/5.0 (Moderate)
+    Conscientiousness : 3.20/5.0 (Moderate)
+    Openness          : 3.50/5.0 (High)
+
+Cluster 11: 3,158 people (3.2%)
+  Exemplar personality profile:
+    Extraversion      : 3.10/5.0 (Moderate)
+    Neuroticism       : 3.00/5.0 (Moderate)
+    Agreeableness     : 2.50/5.0 (Moderate)
+    Conscientiousness : 3.00/5.0 (Moderate)
+    Openness          : 2.60/5.0 (Moderate)
+
+Cluster 12: 14,549 people (14.5%)
+  Exemplar personality profile:
+    Extraversion      : 3.10/5.0 (Moderate)
+    Neuroticism       : 3.20/5.0 (Moderate)
+    Agreeableness     : 3.10/5.0 (Moderate)
+    Conscientiousness : 3.20/5.0 (Moderate)
+    Openness          : 3.20/5.0 (Moderate)
+
+============================================================
+SAVING EXEMPLAR DATA
+============================================================
+✓ Exemplar profiles saved to 'cluster_exemplars.csv'
+✓ Detailed exemplar profiles saved to 'cluster_exemplars_detailed.csv'
+
+======================================================================  
+CLUSTERING COMPLETE!
+======================================================================  
+✓ Optimal K: 13 personality types
+✓ Clustered: 100,000 people
+✓ Created: 13 AI persona blueprints
+
+Files created:
+  1. model_selection_results.png - Plots showing K selection
+  2. ipip_with_clusters.csv - All data with cluster assignments
+  3. cluster_exemplars.csv - Exemplar Big Five scores
+  4. cluster_exemplars_detailed.csv - Exemplar item-level scores        
+
+Next step: Use these exemplars to create AI persona prompts!
